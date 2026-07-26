@@ -1,18 +1,19 @@
-# Rock-Z Tap
+# Rock-Z Homebrew Tap
 
-## How do I install these formulae?
+## AgentUsage
 
-`brew install rock-z/tap/<formula>`
+Install AgentUsage with:
 
-Or `brew tap rock-z/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "rock-z/tap"
-brew "<formula>"
+```sh
+brew install --cask Rock-Z/tap/agentusage
 ```
 
-## Documentation
+Upgrade it with:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew upgrade --cask agentusage
+```
+
+AgentUsage is a local-only macOS menu-bar app for viewing Codex and Claude
+usage and activity. See the
+[AgentUsage repository](https://github.com/Rock-Z/AgentUsage) for details.
