@@ -17,5 +17,10 @@ cask "agentusage" do
 
   app "AgentUsage.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/AgentUsage.app"]
+  end
+
   uninstall quit: "io.github.rock-z.agentusage"
 end
