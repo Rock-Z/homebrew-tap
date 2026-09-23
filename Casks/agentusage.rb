@@ -1,6 +1,6 @@
 cask "agentusage" do
-  version "0.4.6"
-  sha256 "85198e4f7c3b6df75df3c1e481c34f4dfe606b2b2363985c367e3a70b0eed3a9"
+  version "0.4.7"
+  sha256 "0b8419a4818f5375d9a54b48cf7e29daa0c126094a1b349e4838e8b282320d56"
 
   url "https://github.com/Rock-Z/AgentUsage/releases/download/v#{version}/AgentUsage-macos-universal.dmg"
   name "AgentUsage"
